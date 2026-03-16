@@ -1,0 +1,58 @@
+{
+  "brick": {
+    "name": null,
+    "host": null
+  },
+  "motors": [
+    {
+      "port": "A",
+      "label": "base_joint",
+      "power": 80,
+      "degrees": 120,
+      "timeout": 2,
+      "enabled": true
+    },
+    {
+      "port": "B",
+      "label": "arm_joint",
+      "power": 80,
+      "degrees": 120,
+      "timeout": 2,
+      "enabled": true
+    },
+    {
+      "port": "C",
+      "label": "vertical_or_gripper",
+      "power": 80,
+      "degrees": 120,
+      "timeout": 2,
+      "enabled": true
+    }
+  ],
+  "sensors": [
+    {
+      "port": "S1",
+      "label": "touch_home",
+      "type": "touch",
+      "enabled": true
+    },
+    {
+      "port": "S2",
+      "label": "ultrasonic_presence",
+      "type": "ultrasonic",
+      "enabled": true
+    },
+    {
+      "port": "S3",
+      "label": "light_optional",
+      "type": "light",
+      "enabled": false
+    },
+    {
+      "port": "S4",
+      "label": "sound_optional",
+      "type": "sound",
+      "enabled": false
+    }
+  ]
+}

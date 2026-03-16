@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+dataset/*
+!dataset/README.md
+
+modelo/*
+!modelo/README.md
+
+reports/*
+!reports/README.md
+
